@@ -9,7 +9,9 @@
  }
  
  .demo .large-header {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+    background-image: linear-gradient(to left, #C845AA, #770DDB);
+    position: absolute;
+    z-index: -100;
  }
  
  .main-title {

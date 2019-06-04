@@ -1,0 +1,56 @@
+/***************************
+COMMON
+***************************/
+
+section {
+    padding: 50px 10px;
+}
+
+.sectionHeading {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+    background-image: linear-gradient(to left, #C845AA, #770DDB); 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+}
+
+.greySection {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width: 768px) {
+    .sectionHeading {
+        font-size: 34px;
+    }
+}
+
+/****************************
+AMAZING FEATURES SECTION
+****************************/
+
+
+
+/****************************
+CHOOSE YOUR PLAN SECTION
+****************************/
+
+.plans {
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+
+.plans:hover {
+    margin-top: -10px;
+    color: rgb(38, 134, 0);
+}
+
+/***************************
+FOOTER SECTION
+****************************/
+
+.footerSection {
+    background-color: rgb(58, 58, 58);
+    color: white
+}

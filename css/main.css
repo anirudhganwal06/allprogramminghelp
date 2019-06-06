@@ -165,13 +165,56 @@ CLIENTS SECTION
 ****************************/
 
 .carousel{
-    background: #2f4357;
     margin-top: 20px;
 }
 .carousel-item{
+    padding-top: 30px;
     text-align: center;
-    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    min-height: 320px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
+
+.clientName {
+    color: black;
+}
+
+.clientPost {
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.clientsSection img {
+    margin: 20px;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-weight: 900;
+    font-size: 40px;
+    background-image: linear-gradient(to left, #C845AA, #770DDB);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-weight: 900;
+    font-size: 40px;
+    background-image: linear-gradient(to left, #C845AA, #770DDB);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-item {
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .carousel-item {
+        min-height: 500px;
+    }
+}
+
 
 
 /***************************

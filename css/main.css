@@ -82,6 +82,10 @@ HEADER
     background-size: cover;
 }
 
+.form-control:invalid {
+    border-color: red;
+    box-shadow: none;
+}
 
 /****************************
 NAV SECTION

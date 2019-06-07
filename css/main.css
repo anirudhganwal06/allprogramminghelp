@@ -242,3 +242,88 @@ FOOTER SECTION
 .footerSection span:hover {
     color: #C845AA;
 }
+
+
+/**************************
+ContactUs Form
+***************************/
+
+.contactUsForm {
+    margin: 30px 25% 20px;
+    border-radius: 10px;
+    min-width: 410px;
+}
+
+.contactUsForm .row {
+    padding: 0 15px;
+}
+
+.contactOption {
+    padding: 10px;
+    margin: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#callOption {
+    border: 5px solid #C845AA;
+    border-bottom: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-sizing: border-box;
+}
+
+#messageOption {
+    border-bottom: 5px solid #C845AA;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-sizing: border-box;
+}
+
+.contactFormInner {
+    border: 5px solid #C845AA;    
+    padding: 30px;
+    /* height: 500px; */
+    border-top: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.contactFormInner h3 {
+    font-weight: 700;
+}
+
+.contactUsForm .btn {
+    color: white;
+    background-image: linear-gradient(to left, #C845AA, #770DDB);
+    font-weight: 600;
+}
+
+.contactUsForm .btn:hover {
+    color: #C845AA;
+    background-image: none;
+    border: 1px solid #C845AA;
+}
+
+#messageContainer {
+    display: none;
+}
+
+@media only screen and (max-width: 993px) {
+    .contactUsForm {
+        margin: 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contactUsForm {
+        margin: 30px 0px;
+    }
+}

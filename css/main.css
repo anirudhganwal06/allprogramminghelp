@@ -19,7 +19,7 @@ section {
     text-align: center;
     background-image: linear-gradient(to left, #C845AA, #770DDB); 
     -webkit-text-fill-color: transparent; 
-    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .postHeadingPara {
@@ -38,8 +38,35 @@ section {
 .themeColor {
     background-image: linear-gradient(to left, #C845AA, #770DDB); 
     -webkit-text-fill-color: transparent; 
-    background-clip: text;
+    -webkit-background-clip: text;
 }
+
+@keyframes up-right {
+    0% {
+        opacity: .25
+    }
+
+    50% {
+        transform: scale (1, 5);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: .25;
+    }
+}
+
+.blinkIt {
+    font-size: 12px;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}
+
+
+
 
 @media only screen and (max-width: 992px) {
     .postHeadingPara {
@@ -183,24 +210,6 @@ CLIENTS SECTION
 
 .clientsSection img {
     margin: 20px;
-}
-
-.carousel-control-next-icon:after {
-    content: '>';
-    font-weight: 900;
-    font-size: 40px;
-    background-image: linear-gradient(to left, #C845AA, #770DDB);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-weight: 900;
-    font-size: 40px;
-    background-image: linear-gradient(to left, #C845AA, #770DDB);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 @media only screen and (max-width: 768px) {
